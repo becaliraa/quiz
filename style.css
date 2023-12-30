@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    background-color: seagreen;
+}
+
+.header {
+    display: flex;
+    top: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgb(12, 99, 49);
+    align-items: center;
+    box-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+
+.logo {
+    font-size: 53px;
+    font-weight:700;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo:hover {
+    color: black;
+    transition: all .4s ease-in-out;
+}
+
+
+.main-page {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: seagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 10px 10px rgb(0, 0, 0);
+}
+
+.card {
+    background-color: black;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.card h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins Medium', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-main {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid seagreen;
+    border-radius: 20px;
+    padding: 5px;
+    transition: all .4s ease-in-out;
+    width: 30%;
+    margin-left: 230px;
+    background-color: white;
+}
+
+.card-main:hover {
+    transform: scale(1.1);
+   background: transparent;
+   color: white;
+}
+
+.form-page {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: seagreen;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.form-main h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#pergunta p {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#respostas input {
+    background-color: white;
+    outline: none;
+    border: 2px solid #126627;
+    font-size: 12px;
+    color: black;
+} 
+
+#respostas {
+    border: 2px solid #000000;
+    background-color: #126627;
+}
+
+button {
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px
+    rgba(0,0,0,.24);
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid #000000;
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
+    transform: translateX(1.05);
+    transition: all .4s ease-in-out;
+}
+
+footer p {
+    display: flex;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    letter-spacing: 1px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}

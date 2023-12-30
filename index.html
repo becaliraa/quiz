@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz: O que você prefere?</title>
+</head>
+
+<body>
+       <header class="header">
+        <a href="#" class="logo">Quiz</a> 
+       </header>
+
+    <main>
+        <section class="main-page" id="page-main">
+            <div class="card">
+                <h2>Quiz: O que você prefere?</h2>
+                <a href="#form-page" class="card-main">Vamos lá!</a>
+            </div>
+            
+        </section>
+
+     <section class="form-page" id="form-page">
+        <form class="form-main">
+            <h1>O que você prefere?</h1>
+            <div id="pergunta">
+
+                <p>Você preferiria um dia poder voar como um pássaro ou nadar como uma tartaruga?</p>
+                </div>
+
+                <fieldset id="respostas">
+                    <input type="radio" id="voar" name="opcao" value="voar"/>
+                    <label for="voar">Vôo!</label><br/>
+                    <input type="radio" id="nadar" name="opcao" value="nadar"/>
+                    <label for="nadar">Nadar!</label><br />
+                    </fieldset>
+
+                    <div id="pergunta">
+
+                        <p>Você prefere ter uma cabeça grande ou um braço grande?</p>
+                        </div>
+                        <fieldset id="respostas">
+                            <input type="radio" id="cabeça" name="opcao" value="cabeça"/>
+                            <label for="voar">Cabeça Grande</label><br/>
+                            <input type="radio" id="braço" name="opcao" value="braço"/>
+                            <label for="nadar">Braço Grande</label><br/>
+                            </fieldset>
+
+                            <div id="pergunta">
+
+                                <p>Você preferiria ganhar 1 real por dia ou 1 milhão a cad 1 ano?</p>
+                                </div>
+                                <fieldset id="respostas">
+                                    <input type="radio" id="real" name="opcao" value="real"/>
+                                    <label for="real">1 real</label><br/>
+                                    <input type="radio" id="milhão" name="opcao" value="milhão"/>
+                                    <label for="milhão">1 milhão</label><br />
+                                    </fieldset>
+
+                                    <div id="pergunta">
+
+                                        <p>Você prefere ser rico ou famoso?</p>
+                                        </div>
+                                        <fieldset id="respostas">
+                                            <input type="radio" id="rico" name="opcao" value="rico"/>
+                                            <label for="rico">Ser rico</label><br/>
+                                            <input type="radio" id="famoso" name="opcao" value="famoso"/>
+                                            <label for="famoso">Ser famoso</label><br/>
+                                            </fieldset>
+                </fieldset>
+            </div>
+            <button onclick="enviarFormulario()">Enviar Formulário</button>
+        </form>
+    </section> 
+    </main>
+    <footer>
+       <p>© 2023 - Quiz: O que você prefere? Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
